@@ -1,8 +1,8 @@
-﻿#Autonomous Rover for Weed Detection
+﻿# Autonomous Rover for Weed Detection
 
 An ESP32-powered rover system designed for precision agriculture. Real-time orientation, manual control, and visual feedback combine with modular, reusable components to create a robust platform for detection and navigation.
 
-##Features
+## Features
 
 - **ESP-NOW Wireless Link**\
   Low-latency, peer-to-peer communication between a handheld transmitter and the rover—no router needed.
@@ -24,7 +24,7 @@ An ESP32-powered rover system designed for precision agriculture. Real-time orie
 ![Remote](docs/Remote.jpg)
 ![Rover](docs/Rover.jpg)
 
-##Getting Started
+## Getting Started
 
 1. **Clone the Code**
 
@@ -53,7 +53,7 @@ An ESP32-powered rover system designed for precision agriculture. Real-time orie
       1. i → show incoming rover data
       1. s → silence both displays
 
-##Usage Tips
+## Usage Tips
 
 - **LED Patterns**: Call flashLED\_run() opportunistically for visual status; comment out in final run for performance.
 - **Battery Reads**: Use BatteryMeasure() frequently to avoid unexpected shutdown.
