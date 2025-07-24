@@ -21,8 +21,8 @@ An ESP32-powered rover system designed for precision agriculture. Real-time orie
 - **Modular C++ Headers**\
   Reusable components (IMUData.h, ButtonData.h, flashLED.h, motor.h, batteryManagement.h, OLEDdisplay.h, wifi\_TX.h, wifi\_RX.h) decouple functionality for easy customization and maintenance.
 
-![Remote](docs/Remote.jpg)
-![Rover](docs/Rover.jpg)
+![Remote](docs/Remote.jpeg)
+![Rover](docs/Rover.jpeg)
 
 ## Getting Started
 
