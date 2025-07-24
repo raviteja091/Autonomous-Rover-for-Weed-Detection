@@ -1,8 +1,8 @@
-﻿**Autonomous Rover for Weed Detection**
+﻿#Autonomous Rover for Weed Detection
 
 An ESP32-powered rover system designed for precision agriculture. Real-time orientation, manual control, and visual feedback combine with modular, reusable components to create a robust platform for detection and navigation.
 
-**Features**
+##Features
 
 - **ESP-NOW Wireless Link**\
   Low-latency, peer-to-peer communication between a handheld transmitter and the rover—no router needed.
@@ -21,7 +21,10 @@ An ESP32-powered rover system designed for precision agriculture. Real-time orie
 - **Modular C++ Headers**\
   Reusable components (IMUData.h, ButtonData.h, flashLED.h, motor.h, batteryManagement.h, OLEDdisplay.h, wifi\_TX.h, wifi\_RX.h) decouple functionality for easy customization and maintenance.
 
-**Getting Started**
+![Remote](docs/Remote.jpg)
+![Rover](docs/Rover.jpg)
+
+##Getting Started
 
 1. **Clone the Code**
 
@@ -50,21 +53,12 @@ An ESP32-powered rover system designed for precision agriculture. Real-time orie
       1. i → show incoming rover data
       1. s → silence both displays
 
-**Usage Tips**
+##Usage Tips
 
 - **LED Patterns**: Call flashLED\_run() opportunistically for visual status; comment out in final run for performance.
 - **Battery Reads**: Use BatteryMeasure() frequently to avoid unexpected shutdown.
 - **Encoder Calibration**: Tune delays in motor.h (e.g., moveForward() delay) for precise travel distances.
 - **IMU Stability**: Ensure 25 ms update interval in updateMPUValues() to balance freshness and noise reduction.
-
-**Contributing**
-
-Enhance weed-detection by adding camera integration, sensor fusion, or autonomous navigation algorithms.
-
-1. Fork the repository
-1. Create a feature branch
-1. Develop & test on hardware
-1. Submit a pull request with clear descriptions and updated documentation
 
 **License**
 
