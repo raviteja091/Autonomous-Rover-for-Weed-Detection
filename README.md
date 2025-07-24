@@ -25,7 +25,7 @@ An ESP32-powered rover system designed for precision agriculture. Real-time orie
 
 1. **Clone the Code**
 
-   git clone https://github.com/<your-username>/autonomous-rover-weed-detection.git\
+   git clone https://github.com/raviteja091/Autonomous-Rover-for-Weed-Detection.git/
    cd autonomous-rover-weed-detection
 
 1. **Open & Upload Transmitter**
